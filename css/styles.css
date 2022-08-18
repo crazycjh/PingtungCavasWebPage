@@ -1,0 +1,179 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+#title .container-fluid{
+  padding:3% 15% 7%;
+  text-align: left;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.color-section {
+  background-color: #0a55bb;
+  color:#ffff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Montserrat-Bold";
+}
+.price-text {
+  font-size: 3rem;
+  line-height:1.5;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+  /* 0 是指頂部與底部  18是左右 */
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+
+.downloaded-btn {
+    margin: 5% 3% 5% 0;
+  }
+
+.bill-button {
+  padding-left: 0rem;
+}  
+
+
+.padding-col {
+  padding: 3% 2%;
+}
+
+#pricing {
+  padding: 100px;
+  
+}
+
+.title-img {
+  /* transform: rotate(25deg); */
+  width: 30%;
+  position: absolute;
+  right: 140px;
+  top: 110px;
+  
+}
+
+.container-fluid {
+  padding: 7% 15% ;
+  /* if there are three parameter 1: top 2: left&right 3:bottom */
+}
+
+#features {
+  position: relative;
+}
+  .feature-box {
+    padding: 5%;
+  }
+
+  p {
+    color: #8f8f8f;
+  }
+  .icon {
+    color: #ef8172;
+  }
+  .icon:hover {
+    color: #ff4c68;
+  }
+
+  /* testimonials Section */
+  #testimonials {
+    background-color: #ef8172;
+    
+  }
+
+  .testimonial-text {
+    font-size: 3rem;
+    line-height:1.5 ;
+  }
+
+  .testimonials-image {
+    width: 20%;
+    border-radius: 100%;
+    margin: 14px;
+  }
+
+  .landscape-img {
+    
+  
+  }
+
+  #press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+  }
+  .press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+    /* padding:20px 20px 50px; */
+  }
+
+
+
+  @media (max-width :1028px) {  
+/* 最大為1028 也是就是1028以下 */
+    #title {
+      text-align: center;
+    }
+
+    .title-img {
+      position:static;
+      transform: rotate(0);
+      width: 60%;
+    }
+    
+  }
+.cta_h3 {
+  padding: 0 0 20px;
+  font-size: 3.5rem;
+}
+.social-icon {
+  margin: 20px 10px;
+}
+
+.img-section {
+  padding-top:20px;
+}
+
+.color {
+  background-color: blue;
+}
+
+.img-size {
+  height:200px;
+  overflow:hidden;
+
+}
+
+.img-section img{
+  margin-top: -50px;
+}
+
